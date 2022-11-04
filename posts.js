@@ -12,6 +12,7 @@ function displayPosts(posts){
         div.classList.add('post');
         div.innerHTML = `
         <h2>${post.title}</h2>
+        <h5>${post.id}</h5>
         <p>${post.body}</p>
         `;
         section.appendChild(div);
