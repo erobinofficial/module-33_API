@@ -13,7 +13,7 @@ function displayPosts(posts){
         div.innerHTML = `
         <h2>${post.title}</h2>
         <h5>${post.id}</h5>
-        <h5>${post.userId}</h5>
+        <h5>${post.userId*2}</h5>
         <p>${post.body}</p>
         `;
         section.appendChild(div);
