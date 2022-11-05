@@ -11,3 +11,12 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 })
   .then((response) => response.json())
   .then((json) => console.log(json));
+
+
+//   output
+{
+    id: 101,
+    title: 'foo',
+    body: 'bar',
+    userId: 1
+  }
